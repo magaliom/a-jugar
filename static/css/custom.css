@@ -1,0 +1,156 @@
+@font-face {
+    font-family: DKJalebi;
+    src: url(../font/DK%20Jalebi.otf);
+}
+
+.logo-imagen {
+    display: inline-block;
+    float: left;
+}
+
+.logo-imagen img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.menu {
+    overflow: hidden;
+    margin-top: 186px;
+}
+
+.menu li {
+    float: left;
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    background-repeat: no-repeat!important;
+    list-style-type: none;
+    margin: 0 10px;
+    width: 137px;
+    height: 50px;
+    position: relative;
+}
+
+.menu a {
+    color: transparent;
+    font-family: DKJalebi;
+    padding: 0 20px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+}
+
+.main-content {
+    min-height: 400px;
+    /*background: #f1f1f1;*/
+    margin-top: 30px;
+}
+
+.container-box{
+    overflow: hidden;
+
+}
+.box {
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-left: 60px;
+    width:250px;
+    height:250px;
+    background-color: #7a9741;
+    border:1;
+}
+
+.container-img{
+    overflow: hidden;
+    margin-left: 56px;
+}
+
+.container-img img{
+    width: 125px;
+    display: inline-block;
+    margin-top: 40px;
+    cursor: pointer;
+}
+h1{
+    font-family: arial;
+    font-size: 29px;
+    color: white;
+    padding: 70px 50px;
+}
+
+h2{
+    font-family: arial;
+    color: grey;
+    font-size: 30px;
+}
+
+h3{
+    font-family: DKJalebi;
+    font-size: 20px;
+    color: #990081;
+    text-align: center;
+}
+
+p{
+    font-family: arial;
+    font-size: 15px;
+    color: grey;
+}
+
+
+.text-container{
+    width: 500px;
+    float: right;
+    margin-right: 285px;
+}
+
+.img-container{
+    overflow: hidden;
+}
+
+.contenedor-derecho {
+    height: 600px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.contenedor-derecho .derecho-imagen{
+    background-position: center !important;
+    display: inline-block;
+    height: 450px;
+    width: 35%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+.contenedor-derecho .derecho-contenido{
+    height: 100%;
+    width: 65%;
+    display: inline-block;
+    float: left;
+    padding: 15px;
+}
+
+.contenedor-derecho .derecho-contenido p.titulo-articulo{
+    font-weight: bold;
+}
+
+fieldset{
+    margin-top: 330px;
+    margin-left: 500px;
+    color:#d12357;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 35px 0px;
+    box-shadow: 10px 0px 10px #b1adad;
+}
+
+footer .universidad {
+    margin-left: 20px;
+}
+
+/*# sourceMappingURL=custom.css.map */

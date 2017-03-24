@@ -1,0 +1,61 @@
+@font-face {
+  font-family: DKJalebi;
+  src: url(../font/DK%20Jalebi.otf);
+}
+
+.logo-imagen {
+  display: inline-block;
+  float: left;
+
+  img {
+    width: 150px;
+  }
+}
+
+.menu {
+
+  overflow: hidden;
+
+  li {
+    float: left;
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    margin: 0 10px;
+    width: 137px;
+    height: 50px;
+    position: relative;
+  }
+  a {
+    color: transparent;
+    font-family: DKJalebi;
+    padding: 0 20px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+}
+
+.main-content {
+  min-height: 400px;
+  background: #f1f1f1;
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 35px 0px;
+  box-shadow: 10px 0px 10px #b1adad;
+
+  .catedra {
+    //width: 215px;
+  }
+
+  .universidad {
+    //width: 300px;
+    margin-left: 20px;
+  }
+}
